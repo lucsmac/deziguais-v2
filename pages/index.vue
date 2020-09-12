@@ -57,7 +57,7 @@
 
     <section class="ecoletiva" :style="{ backgroundImage: 'url(' + require('~/static/images/bg.png') + ')' }">
       <h1>Campanha <em>Eco.</em>letiva</h1>
-      <p>Nossa pré-campanha é Eco.letiva: sustentável, participativa, inclusiva e transparente. Seguimos a tendência do mundo moderno e das novas tecnologias, não usaremos papel imprenso e nem dinheiro público, recusamos os recursos do fundo eleitoral. Nossa campanha moderna e coletiva, custará 20 mil reais. O Financiamento colaborativo faz parte da essência da construção do nosso projeto político coletivo e somente dessa forma levantaremos recursos para custear nossa campanha.</p>
+      <p>Nossa campanha é Eco.letiva: sustentável, participativa, inclusiva e transparente. Seguimos a tendência do mundo moderno e das novas tecnologias, não usaremos papel imprenso e nem dinheiro público, recusamos os recursos do fundo eleitoral. Nossa campanha moderna e coletiva, custará 20 mil reais. O Financiamento colaborativo faz parte da essência da construção do nosso projeto político coletivo e somente dessa forma levantaremos recursos para custear nossa campanha.</p>
     </section>
 
     <section class="social">
