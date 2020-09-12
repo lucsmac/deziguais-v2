@@ -2,10 +2,11 @@
   <div class="container">
     <header class="header">
       <div class="social-media">
-        <a href="#" target="_blank" class="icon"><img :src="require(`~/static/images/facebook.png`)" alt="Facebook"></a>
-        <a href="#" target="_blank" class="icon"><img :src="require(`~/static/images/instagram.png`)" alt="Instagram"></a>
-        <a href="#" target="_blank" class="icon"><img :src="require(`~/static/images/twitter.png`)" alt="twitter"></a>
-        <a href="#" target="_blank" class="icon"><img :src="require(`~/static/images/youtube.png`)" alt="youtube"></a>
+        <a href="https://www.facebook.com/DezIguais/" target="_blank" class="icon"><img :src="require(`~/static/images/facebook.png`)" alt="Facebook"></a>
+        <a href="https://instagram.com/deziguais?igshid=19bhxnpz3a7hl" target="_blank" class="icon"><img :src="require(`~/static/images/instagram.png`)" alt="Instagram"></a>
+        <a href="https://twitter.com/deziguais?s=11" target="_blank" class="icon"><img :src="require(`~/static/images/twitter.png`)" alt="twitter"></a>
+        <a href="https://m.youtube.com/channel/UCGnrqjHYBCdE--UEupVSY-A/featured" target="_blank" class="icon"><img :src="require(`~/static/images/youtube.png`)" alt="youtube"></a>
+        <a href="https://m.youtube.com/channel/UCGnrqjHYBCdE--UEupVSY-A/featured" target="_blank" class="icon"><img :src="require(`~/static/images/whatsapp.png`)" alt="youtube"></a>
       </div>
     </header>
 
@@ -28,21 +29,28 @@
     </section>
 
     <section class="join-the-change" :style="{ backgroundImage: 'url(' + require('~/static/images/bg-join-the-change.jpg') + ')' }">
-      <h1>Participe da mudança</h1>
+      <h1>Participe da campanha</h1>
+      <h2>Se a cidade é de todos, a política também tem que ser</h2>
       <div class="change-items">
         <div class="change-item">
-          <img :src="require(`~/static/images/apoiar.png`)" alt="Apoiar">
-          <p>Apoiar</p>
+          <a href="https://instagram.com/deziguais?igshid=19bhxnpz3a7hl" target="_blank">
+            <img :src="require(`~/static/images/apoiar.png`)" alt="Apoiar">
+            <p>Apoiar</p>
+          </a>
         </div>
 
         <div class="change-item">
-          <img :src="require(`~/static/images/doar.png`)" alt="doar">
-          <p>Doar</p>
+          <a href="http://apoia.org/coletivodeziguais" target="_blank">
+            <img :src="require(`~/static/images/vakinha.png`)" alt="doar">
+            <p>Doar</p>
+          </a>
         </div>
 
         <div class="change-item">
-          <img :src="require(`~/static/images/convidar.png`)" alt="convidar">
-          <p>Convidar</p>
+          <a href="https://whats.link/deziguaisnatal" target="_blank">
+            <img :src="require(`~/static/images/convidar.png`)" alt="convidar">
+            <p>Convidar</p>
+          </a>
         </div>
       </div>
     </section>
@@ -55,10 +63,11 @@
     <section class="social">
       <h1>Nossas redes sociais</h1>
       <div class="social-links">
-        <a href="#" target="_blank" class="icon"><img :src="require(`~/static/images/facebook.png`)" alt="Facebook"></a>
-        <a href="#" target="_blank" class="icon"><img :src="require(`~/static/images/instagram.png`)" alt="Instagram"></a>
-        <a href="#" target="_blank" class="icon"><img :src="require(`~/static/images/twitter.png`)" alt="twitter"></a>
-        <a href="#" target="_blank" class="icon"><img :src="require(`~/static/images/youtube.png`)" alt="youtube"></a>
+        <a href="https://www.facebook.com/DezIguais/" target="_blank" class="icon"><img :src="require(`~/static/images/facebook.png`)" alt="Facebook"></a>
+        <a href="https://instagram.com/deziguais?igshid=19bhxnpz3a7hl" target="_blank" class="icon"><img :src="require(`~/static/images/instagram.png`)" alt="Instagram"></a>
+        <a href="https://twitter.com/deziguais?s=11" target="_blank" class="icon"><img :src="require(`~/static/images/twitter.png`)" alt="Twitter"></a>
+        <a href="https://m.youtube.com/channel/UCGnrqjHYBCdE--UEupVSY-A/featured" target="_blank" class="icon"><img :src="require(`~/static/images/youtube.png`)" alt="Youtube"></a>
+        <a href="https://whats.link/deziguaisnatal" target="_blank" class="icon"><img :src="require(`~/static/images/whatsapp.png`)" alt="Whatsapp"></a>
       </div>
     </section>
 
@@ -73,7 +82,7 @@
       <div class="profile-items">
 
         <div class="profile-item">
-          <img :src="require(`~/static/images/gustavo.JPG`)" alt="Gustavo Brendo">
+          <img :src="require(`~/static/images/edit/gustavo.png`)" alt="Gustavo Brendo">
           <div class="profile-item__text">
             <h2>Gustavo Brendo</h2>
             <h3>@gustavobrendo</h3>
@@ -82,7 +91,7 @@
         </div>
 
         <div class="profile-item">
-          <img :src="require(`~/static/images/luciana.JPG`)" alt="Gustavo Brendo">
+          <img :src="require(`~/static/images/edit/luciana.png`)" alt="Gustavo Brendo">
           <div class="profile-item__text">
             <h2>LUCIANA BEZERRA</h2>
             <h3>@lucianasbezerra</h3>
@@ -91,7 +100,7 @@
         </div>
 
         <div class="profile-item">
-          <img :src="require(`~/static/images/rodrigo.JPG`)" alt="Gustavo Brendo">
+          <img :src="require(`~/static/images/edit/rodrigo.png`)" alt="Gustavo Brendo">
           <div class="profile-item__text">
             <h2>RODRIGO SANTOS</h2>
             <h3>@rodrigxsantos</h3>
@@ -100,7 +109,7 @@
         </div>
 
         <div class="profile-item">
-          <img :src="require(`~/static/images/sa.JPG`)" alt="Gustavo Brendo">
+          <img :src="require(`~/static/images/edit/sa.png`)" alt="Gustavo Brendo">
           <div class="profile-item__text">
             <h2>LUCIANA SÁ</h2>
             <h3>@lucyanasa</h3>
@@ -109,7 +118,7 @@
         </div>
 
         <div class="profile-item">
-          <img :src="require(`~/static/images/evenny.JPG`)" alt="Gustavo Brendo">
+          <img :src="require(`~/static/images/edit/evenny.png`)" alt="Gustavo Brendo">
           <div class="profile-item__text">
             <h2>EVENNY JOSEPPY</h2>
             <h3>@evennyjoseppy</h3>
@@ -118,7 +127,7 @@
         </div>
 
         <div class="profile-item">
-          <img :src="require(`~/static/images/ana.JPG`)" alt="Gustavo Brendo">
+          <img :src="require(`~/static/images/edit/ana.png`)" alt="Gustavo Brendo">
           <div class="profile-item__text">
             <h2>ANA CAROLINA</h2>
             <h3>@analima_carol</h3>
@@ -127,7 +136,7 @@
         </div>
 
         <div class="profile-item">
-          <img :src="require(`~/static/images/anderson.JPG`)" alt="Gustavo Brendo">
+          <img :src="require(`~/static/images/edit/anderson.png`)" alt="Gustavo Brendo">
           <div class="profile-item__text">
             <h2>ANDERSON MONTEIRO</h2>
             <h3>@professoranderson10</h3>
@@ -136,7 +145,7 @@
         </div>
 
         <div class="profile-item">
-          <img :src="require(`~/static/images/tiago.JPG`)" alt="Gustavo Brendo">
+          <img :src="require(`~/static/images/edit/tiago.png`)" alt="Gustavo Brendo">
           <div class="profile-item__text">
             <h2>TIAGO MOURA</h2>
             <h3>@tiagomoura_10</h3>
@@ -145,7 +154,7 @@
         </div>
 
         <div class="profile-item">
-          <img :src="require(`~/static/images/luciana.JPG`)" alt="Gustavo Brendo">
+          <img :src="require(`~/static/images/edit/jose.png`)" alt="Gustavo Brendo">
           <div class="profile-item__text">
             <h2>JOSÉ ALBINO NETO</h2>
             <h3>@jalbinoneto</h3>
@@ -270,15 +279,26 @@ export default {
   background-size: cover;
 }
 
+.join-the-change a {
+  text-decoration: none;
+}
+
 .join-the-change h1 {
   font-size: 3.5rem;
   color: #FFF;
   text-transform: uppercase;
 
-  padding-bottom: 60px;
+  padding-bottom: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.join-the-change h2 {
+  color: #FFF;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-bottom: 50px;
 }
 
 .join-the-change h1::after {
@@ -289,6 +309,11 @@ export default {
   background-color: #FFF;
 
   margin-top: 15px;
+}
+
+.join-the-change img {
+  height: 100px;
+  filter: brightness(100);
 }
 
 .change-items {
@@ -331,6 +356,7 @@ export default {
 
 .social .social-links {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   max-width: 400px;
@@ -374,13 +400,22 @@ export default {
   font-size: 3rem;
 }
 
+.profile-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .profile-item {
   margin-top: 60px;
   display: flex;
 }
 
 .profile-item img {
-  max-width: 300px;
+  width: 250px;
+  height: 300px;
+  display: block;
+  margin-right: 5vw;
 }
 
 .profile-item__text {
@@ -389,6 +424,7 @@ export default {
   align-items: flex-start;
 
   margin-left: 30px;
+  text-align: left;
 }
 
 .profile-item__text h2 {
@@ -410,7 +446,6 @@ export default {
   color: #0767aa;
 
   text-align: left;
-
 }
 
 @media screen and (max-width: 760px) {
@@ -422,7 +457,7 @@ export default {
     max-width: 60%;
   }
 
-  .who-we-are, .what-we-want, .ecoletiva, .social, .join-the-change {
+  .who-we-are, .what-we-want, .ecoletiva, .social, .join-the-change, .deziguais {
     padding: 60px 3vh;
   }
 
@@ -440,6 +475,28 @@ export default {
   .change-items {
     width: 80%;
   }
+
+  .profile-item {
+    max-width: 90%;
+  }
+
+  .profile-item {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-item__text {
+    margin: 0;
+    margin-top: 30px;
+  }
+
+  .profile-item h2 {
+    font-size: 1.5rem;
+  }
+
+  .profile-item img {
+    margin: 0;
+  }
 }
 
 
@@ -451,6 +508,14 @@ export default {
 
   .change-item {
     margin: 15px 0;
+  }
+
+  .social .social-links {
+    justify-content: center;
+  }
+
+  .social-links a {
+    margin: 15px;
   }
 }
 
