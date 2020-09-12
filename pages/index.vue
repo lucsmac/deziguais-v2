@@ -10,8 +10,8 @@
       </div>
     </header>
 
-    <section class="hero" :style="{ backgroundImage: 'url(' + require('~/static/images/hero.jpg') + ')' }">
-      <img class="logo" :src="require(`~/static/images/logo.png`)" alt="Deziguais">
+    <section class="hero">
+      <img class="logo" :src="require(`~/static/images/image1.png`)" alt="Deziguais">
     </section>
 
     <section class="who-we-are" :style="{ backgroundImage: 'url(' + require('~/static/images/bg.png') + ')' }">
@@ -21,7 +21,7 @@
       <h2>O Coletivo DezIguais é uma forma viável, saudável e honesta de fazer política.</h2>
     </section>
 
-    <img class="deziguais-img" :src="require(`~/static/images/what-we-want.jpg`)" alt="Deziguais">
+    <img class="deziguais-img" :src="require(`~/static/images/image3.jpg`)" alt="Deziguais">
 
     <section class="what-we-want" :style="{ backgroundImage: 'url(' + require('~/static/images/bg.png') + ')' }">
       <h1>O que queremos</h1>
@@ -205,13 +205,10 @@ export default {
 
 .hero {
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 75px 30vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+}
+
+.logo {
+  width: 100%;
 }
 
 .who-we-are, .what-we-want, .ecoletiva, .social, .deziguais {
@@ -449,13 +446,8 @@ export default {
 }
 
 @media screen and (max-width: 760px) {
-  .hero {
-    padding: 75px 5vh;
-  }
 
-  .logo {
-    max-width: 60%;
-  }
+
 
   .who-we-are, .what-we-want, .ecoletiva, .social, .join-the-change, .deziguais {
     padding: 60px 3vh;
