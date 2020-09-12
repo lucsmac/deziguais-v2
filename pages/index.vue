@@ -6,7 +6,7 @@
         <a href="https://instagram.com/deziguais?igshid=19bhxnpz3a7hl" target="_blank" class="icon"><img :src="require(`~/static/images/instagram.png`)" alt="Instagram"></a>
         <a href="https://twitter.com/deziguais?s=11" target="_blank" class="icon"><img :src="require(`~/static/images/twitter.png`)" alt="twitter"></a>
         <a href="https://m.youtube.com/channel/UCGnrqjHYBCdE--UEupVSY-A/featured" target="_blank" class="icon"><img :src="require(`~/static/images/youtube.png`)" alt="youtube"></a>
-        <a href="https://m.youtube.com/channel/UCGnrqjHYBCdE--UEupVSY-A/featured" target="_blank" class="icon"><img :src="require(`~/static/images/whatsapp.png`)" alt="youtube"></a>
+        <a href="https://whats.link/deziguaisnatal" target="_blank" class="icon"><img :src="require(`~/static/images/whatsapp.png`)" alt="youtube"></a>
       </div>
     </header>
 
