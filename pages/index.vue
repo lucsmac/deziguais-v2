@@ -33,7 +33,7 @@
       <h2>Se a cidade é de todos, a política também tem que ser</h2>
       <div class="change-items">
         <div class="change-item">
-          <a href="https://instagram.com/deziguais?igshid=19bhxnpz3a7hl" target="_blank">
+          <a href="https://ondaeleitoral.org/cadastrar/deziguais2020" target="_blank">
             <img :src="require(`~/static/images/apoiar.png`)" alt="Apoiar">
             <p>Apoiar</p>
           </a>
@@ -47,7 +47,7 @@
         </div>
 
         <div class="change-item">
-          <a href="https://whats.link/deziguaisnatal" target="_blank">
+          <a href="https://apptuts.bio/coletivodeziguais" target="_blank">
             <img :src="require(`~/static/images/convidar.png`)" alt="convidar">
             <p>Convidar</p>
           </a>
