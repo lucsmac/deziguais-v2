@@ -16,7 +16,7 @@
 
     <section class="who-we-are" :style="{ backgroundImage: 'url(' + require('~/static/images/bg.png') + ')' }">
       <h1>Quem somos</h1>
-      <p>DEZ natalenses de diferentes origens e com trajetórias em diversas causas, trazendo o senso  de coletividade na participação política, com o objetivo de transformar Natal em uma cidade com oportunidades IGUAIS para todos e todas. A pré-candidatura coletiva é uma experiência política moderna e inovadora.</p>
+      <p>DEZ natalenses de diferentes origens e com trajetórias em diversas causas, trazendo o senso  de coletividade na participação política, com o objetivo de transformar Natal em uma cidade com oportunidades IGUAIS para todos e todas. A candidatura coletiva é uma experiência política moderna e inovadora.</p>
       <p>É a ideia de coletividade, que vai de encontro à lógica da velha e antiga política de individualismo, que afasta as pessoas comuns do exercício do poder.</p>
       <h2>O Coletivo DezIguais é uma forma viável, saudável e honesta de fazer política.</h2>
     </section>
