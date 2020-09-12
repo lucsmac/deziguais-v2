@@ -502,6 +502,10 @@ export default {
 
 @media screen and (max-width: 500px) {
 
+  .header {
+    justify-content: center;
+  }
+
   .change-items {
     flex-direction: column;
   }
