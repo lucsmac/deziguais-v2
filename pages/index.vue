@@ -2,10 +2,10 @@
   <div class="container">
     <header class="header">
       <div class="social-media">
-        <font-awesome-icon class="header-social-media__icon" :icon="{ prefix: 'fab', iconName: 'facebook' }"/>
-        <font-awesome-icon class="header-social-media__icon" :icon="{ prefix: 'fab', iconName: 'twitter' }"/>
-        <font-awesome-icon class="header-social-media__icon" :icon="{ prefix: 'fab', iconName: 'instagram' }"/>
-        <font-awesome-icon class="header-social-media__icon" :icon="{ prefix: 'fab', iconName: 'youtube' }"/>
+        <a href="#" target="_blank" class="icon"><img :src="require(`~/static/images/facebook.png`)" alt="Facebook"></a>
+        <a href="#" target="_blank" class="icon"><img :src="require(`~/static/images/instagram.png`)" alt="Instagram"></a>
+        <a href="#" target="_blank" class="icon"><img :src="require(`~/static/images/twitter.png`)" alt="twitter"></a>
+        <a href="#" target="_blank" class="icon"><img :src="require(`~/static/images/youtube.png`)" alt="youtube"></a>
       </div>
     </header>
 
@@ -55,21 +55,112 @@
     <section class="social">
       <h1>Nossas redes sociais</h1>
       <div class="social-links">
-        <a href="#" class="social-link"><font-awesome-icon class="social-link__icon" :icon="{ prefix: 'fab', iconName: 'facebook' }"/></a>
-        <a href="#" class="social-link"><font-awesome-icon class="social-link__icon" :icon="{ prefix: 'fab', iconName: 'twitter' }"/></a>
-        <a href="#" class="social-link"><font-awesome-icon class="social-link__icon" :icon="{ prefix: 'fab', iconName: 'instagram' }"/></a>
-        <a href="#" class="social-link"><font-awesome-icon class="social-link__icon" :icon="{ prefix: 'fab', iconName: 'youtube' }"/></a>
+        <a href="#" target="_blank" class="icon"><img :src="require(`~/static/images/facebook.png`)" alt="Facebook"></a>
+        <a href="#" target="_blank" class="icon"><img :src="require(`~/static/images/instagram.png`)" alt="Instagram"></a>
+        <a href="#" target="_blank" class="icon"><img :src="require(`~/static/images/twitter.png`)" alt="twitter"></a>
+        <a href="#" target="_blank" class="icon"><img :src="require(`~/static/images/youtube.png`)" alt="youtube"></a>
       </div>
     </section>
 
-    <section class="video">
+    <section class="video" :style="{ backgroundImage: 'url(' + require('~/static/images/bg.png') + ')' }">
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/YXI4rlJhqek" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </section>
 
+    <section class="deziguais" :style="{ backgroundImage: 'url(' + require('~/static/images/bg.png') + ')' }">
+      <h1>Conheça os deziguais</h1>
+      <div class="profile-items">
+
+        <div class="profile-item">
+          <img :src="require(`~/static/images/gustavo.JPG`)" alt="Gustavo Brendo">
+          <div class="profile-item__text">
+            <h2>Gustavo Brendo</h2>
+            <h3>@gustavobrendo</h3>
+            <p>Filho de Rose, mãe solo. Nascido e criado no bairro Planalto, Zona Oeste de Natal. Um jovem de 26 anos, estudante de jornalismo, defensor de políticas públicas para a juventude. Sempre estudou em escola pública. Foi presidente do Grêmio do CAIC Planalto, membro do Diretório Central dos Estudantes da Universidade Potiguar e integrou o Conselho da Juventude e Igualdade Racial do município de Parnamirim.</p>
+          </div>
+        </div>
+
+        <div class="profile-item">
+          <img :src="require(`~/static/images/luciana.JPG`)" alt="Gustavo Brendo">
+          <div class="profile-item__text">
+            <h2>LUCIANA BEZERRA</h2>
+            <h3>@lucianasbezerra</h3>
+            <p>Tem 48 anos, mãe de três filhos, casada, natalense e potiguar. Advogada desse 2002, ativista das causas das mulheres, participa da RAPS: Rede de Ação Política pela Sustentabilidade, do RenovaBR, do Vamos Juntas na Política e da Comissão da Mulher na OAB/RN. Secretária da Mulher do Solidariedade no RN, através desta missão já colocou em prática, ações importantes, como a Corrida Nós Podemos, campanhas como a do Lenço Solidário e Quebrando o Silêncio. Também coordena projetos como o Mulheres do Axé e o Doceiras do RN.</p>
+          </div>
+        </div>
+
+        <div class="profile-item">
+          <img :src="require(`~/static/images/rodrigo.JPG`)" alt="Gustavo Brendo">
+          <div class="profile-item__text">
+            <h2>RODRIGO SANTOS</h2>
+            <h3>@rodrigxsantos</h3>
+            <p>Filho de Sr. Roberto e Dona Tânia. Apaixonado por Natal, empreendedor, ex-atleta, graduando em Nutrição/UFRN. Aos 22 anos abriu seu negócio sem capacitação, experiência e apoio. Hoje, depois de tanto tempo leva consigo as vivências do que é empreender aqui em nossa cidade! </p>
+          </div>
+        </div>
+
+        <div class="profile-item">
+          <img :src="require(`~/static/images/sa.JPG`)" alt="Gustavo Brendo">
+          <div class="profile-item__text">
+            <h2>LUCIANA SÁ</h2>
+            <h3>@lucyanasa</h3>
+            <p>Natalense, 38 anos, mãe de dois meninos, bacharel em direito. Ao longo da sua vida, exerceu cargos/funções que lhe fizeram despertar o interesse por temas relevantes ao nosso cotidiano, como a mobilidade urbana. Acredita que as mudanças que procuramos, precisam iniciar a partir de nós mesmos.</p>
+          </div>
+        </div>
+
+        <div class="profile-item">
+          <img :src="require(`~/static/images/evenny.JPG`)" alt="Gustavo Brendo">
+          <div class="profile-item__text">
+            <h2>EVENNY JOSEPPY</h2>
+            <h3>@evennyjoseppy</h3>
+            <p>Filho de Seu Edmilson e Dona Clara, nasceu, cresceu e até hoje vive no Bairro do Alecrim. Sempre acreditou que a educação é o caminho mais seguro para todo aquele que deseja realizar seus sonhos. É intérprete de LIBRAS da pastoral do Surdo de Natal, tendo passado, também, pela rede pública de educação como intérprete. Acredita, sobretudo, na inclusão social, em todos os seus aspectos e para todas as pessoas. </p>
+          </div>
+        </div>
+
+        <div class="profile-item">
+          <img :src="require(`~/static/images/ana.JPG`)" alt="Gustavo Brendo">
+          <div class="profile-item__text">
+            <h2>ANA CAROLINA</h2>
+            <h3>@analima_carol</h3>
+            <p>Tem 44 anos, mãe de 2 filhos, natalense, nascida e criada na Cidade da Esperança, Administradora, ativista na área da saúde, voluntária em diversas ações sociais direcionadas aos irmãos necessitados. Mulher de fé que quer contribuir pra uma Natal mais humana e solidária. </p>
+          </div>
+        </div>
+
+        <div class="profile-item">
+          <img :src="require(`~/static/images/anderson.JPG`)" alt="Gustavo Brendo">
+          <div class="profile-item__text">
+            <h2>ANDERSON MONTEIRO</h2>
+            <h3>@professoranderson10</h3>
+            <p>Filho de Dona Francineide e Seu José Monteiro, neto, com orgulho, de Dona Francisca Maria, sua maior incentivadora. Anderson Monteiro é professor e idealizador de projetos. Brinquedista e ator amador. Carioca de nascimento e Potiguar de coração, morador da Zona Norte do Natal. Acredita na força da cultura e no poder da educação, pois é exemplo vivo do poder de sua transformação.</p>
+          </div>
+        </div>
+
+        <div class="profile-item">
+          <img :src="require(`~/static/images/tiago.JPG`)" alt="Gustavo Brendo">
+          <div class="profile-item__text">
+            <h2>TIAGO MOURA</h2>
+            <h3>@tiagomoura_10</h3>
+            <p>Jovem de 25 anos. Autônomo, morador do bairro de Cidade da Esperança há 12 anos. Atua a favor do desenvolvimento social do seu bairro. Defende uma política que tenha como base um maior investimento do município na educação. </p>
+          </div>
+        </div>
+
+        <div class="profile-item">
+          <img :src="require(`~/static/images/luciana.JPG`)" alt="Gustavo Brendo">
+          <div class="profile-item__text">
+            <h2>JOSÉ ALBINO NETO</h2>
+            <h3>@jalbinoneto</h3>
+            <p>Tem 56 anos, eletrotécnico, morador do Planalto, Zona Oeste de Natal, onde desde 2002 atua a favor do desenvolvimento social do bairro. Um cidadão ativista que contribui voluntariamente na fiscalização dos serviços públicos em benefício da sociedade. Inscrito e selecionado através do edital Seja DezIguais.</p>
+          </div>
+        </div>
+
+      </div>
     </section>
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+}
 </script>
 
 <style>
@@ -96,10 +187,11 @@ export default {}
   display: flex;
 }
 
-.header-social-media__icon {
-  font-size: 1.25rem;
+.social-media .icon img {
+  max-width: 1.25rem;
   color: #FFF;
   margin: 0 10px;
+  filter: invert(100)
 }
 
 .hero {
@@ -113,7 +205,7 @@ export default {}
   background-size: cover;
 }
 
-.who-we-are, .what-we-want, .ecoletiva, .social {
+.who-we-are, .what-we-want, .ecoletiva, .social, .deziguais {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -122,7 +214,7 @@ export default {}
   padding: 60px 15vh;
 }
 
-.who-we-are h1, .what-we-want h1, .ecoletiva h1 {
+.who-we-are h1, .what-we-want h1, .ecoletiva h1, .deziguais h1 {
   font-size: 2.5rem;
   color: #60893b;
   text-transform: uppercase;
@@ -201,7 +293,8 @@ export default {}
 
 .change-items {
   display: flex;
-  width: 680px;
+  max-width: 680px;
+  width: 100%;
   justify-content: space-between;
 }
 
@@ -244,9 +337,80 @@ export default {}
   width: 100%;
 }
 
+.social-links .icon img {
+  max-width: 50px;
+  filter: invert(100)
+}
+
 .social .social-link__icon {
   color: #FFF;
   font-size: 3rem;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 120px 15vw;
+}
+
+.video-wrapper {
+  position: relative;
+  max-width: 740px;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.video iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.deziguais h1 {
+  font-size: 3rem;
+}
+
+.profile-item {
+  margin-top: 60px;
+  display: flex;
+}
+
+.profile-item img {
+  max-width: 300px;
+}
+
+.profile-item__text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  margin-left: 30px;
+}
+
+.profile-item__text h2 {
+  font-size: 2rem;
+  color: #0767aa;
+  text-transform: uppercase;
+}
+
+.profile-item__text h3 {
+  font-size: 1.5rem;
+  color: #0767aa;
+  font-weight: 300;
+
+  padding-bottom: 40px;
+}
+
+.profile-item__text p {
+  font-size: 1rem;
+  color: #0767aa;
+
+  text-align: left;
+
 }
 
 @media screen and (max-width: 760px) {
@@ -270,16 +434,23 @@ export default {}
     font-size: 2rem;
   }
 
+  .social .social-links {
+    padding: 0 10%;
+  }
+  .change-items {
+    width: 80%;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+
   .change-items {
     flex-direction: column;
   }
 
   .change-item {
     margin: 15px 0;
-  }
-
-  .social .social-links {
-    padding: 0 10%;
   }
 }
 
