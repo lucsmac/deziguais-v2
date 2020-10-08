@@ -11,7 +11,7 @@
     </header>
 
     <section class="hero">
-      <img class="logo" :src="require(`~/static/images/image1.png`)" alt="Deziguais">
+      <img class="logo" :src="require(`~/static/images/banner.PNG`)" alt="Deziguais">
     </section>
 
     <section class="who-we-are" :style="{ backgroundImage: 'url(' + require('~/static/images/bg.png') + ')' }">
@@ -159,6 +159,24 @@
             <h2>JOSÉ ALBINO NETO</h2>
             <h3>@jalbinoneto</h3>
             <p>Tem 56 anos, eletrotécnico, morador do Planalto, Zona Oeste de Natal, onde desde 2002 atua a favor do desenvolvimento social do bairro. Um cidadão ativista que contribui voluntariamente na fiscalização dos serviços públicos em benefício da sociedade. Inscrito e selecionado através do edital Seja DezIguais.</p>
+          </div>
+        </div>
+
+        <div class="profile-item">
+          <img :src="require(`~/static/images/edit/rafael.png`)" alt="Gustavo Brendo">
+          <div class="profile-item__text">
+            <h2>Rafael Silva</h2>
+            <h3>@rafaelsilva77010</h3>
+            <p>Filho do Pedreiro José Francisco de Barros e da doméstica Terezinha de Jesus Silva de Barros. Casado com a Sra. Micarla  Lintro Teixeira Barros Rafael Silva é pai de dois filhos, cristão. Tem experiência profissional na área de segurança Privada. Sempre buscou desenvolver  trabalhos sociais voltado, especialmente, para comunidade do Loteamento José Sarney Bairro Lagoa Azul, onde atuou junto a Igreja Evangélica  na proteção à população mais carente com cultos evangélicos nas ruas pregando a palavra de Deus e palavras de autoajuda aos dependentes químicos.  Agora, terá a oportunidade de lutar pelas causas que acredita no plenário do Legislativo natalense.</p>
+          </div>
+        </div>
+
+        <div class="profile-item">
+          <img :src="require(`~/static/images/edit/railson.png`)" alt="Gustavo Brendo">
+          <div class="profile-item__text">
+            <h2>Railson Maciel</h2>
+            <h3>@railsonmaciel2</h3>
+            <p>Tem 53 anos, nascido em Natal-RN, grande parte da infância e adolescência vivida no bairro das Quintas, hoje morador do bairro Planalto a 26 anos. Eletricista, durante muitos anos a serviço da Cosern, hoje completando 8 anos como MEI na mesma área. Identifica-se com a causa dos animais e atua a favor do desenvolvimento da pavimentação e iluminação da cidade.</p>
           </div>
         </div>
 
