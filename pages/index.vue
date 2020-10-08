@@ -11,7 +11,7 @@
     </header>
 
     <section class="hero">
-      <img class="logo" :src="require(`~/static/images/banner.PNG`)" alt="Deziguais">
+      <img class="logo" :src="require(`~/static/images/banner.png`)" alt="Deziguais">
     </section>
 
     <section class="who-we-are" :style="{ backgroundImage: 'url(' + require('~/static/images/bg.png') + ')' }">
