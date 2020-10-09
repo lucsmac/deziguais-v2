@@ -11,7 +11,7 @@
     </header>
 
     <section class="hero">
-      <img class="logo" :src="require(`~/static/images/banner.png`)" alt="Deziguais">
+      <img class="logo" :src="require(`~/static/images/banner.jpg`)" alt="Deziguais">
     </section>
 
     <section class="who-we-are" :style="{ backgroundImage: 'url(' + require('~/static/images/bg.png') + ')' }">
@@ -21,7 +21,7 @@
       <h2>O Coletivo DezIguais é uma forma viável, saudável e honesta de fazer política.</h2>
     </section>
 
-    <img class="deziguais-img" :src="require(`~/static/images/image3.jpg`)" alt="Deziguais">
+    <img class="deziguais-img" :src="require(`~/static/images/deziguais.jpg`)" alt="Deziguais">
 
     <section class="what-we-want" :style="{ backgroundImage: 'url(' + require('~/static/images/bg.png') + ')' }">
       <h1>O que queremos</h1>
@@ -73,7 +73,7 @@
 
     <section class="video" :style="{ backgroundImage: 'url(' + require('~/static/images/bg.png') + ')' }">
       <div class="video-wrapper">
-        <iframe src="https://www.youtube.com/embed/YXI4rlJhqek" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/4ens_WhQPik" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </section>
 
